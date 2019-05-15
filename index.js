@@ -10,4 +10,3 @@ function distanceFromHqInBlocks (distance) {
 function distanceFromHqInfeet (destination) {
   return destination
   }
-}
