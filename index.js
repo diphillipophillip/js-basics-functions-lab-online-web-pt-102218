@@ -27,6 +27,6 @@ function distanceFromHqInFeet (distance) {
     if (((start - destination) * 264) <= 400) {
       return 0 
     } else if (((start - destination) * 264) > 2000) {
-      return 25
+      return (25)
     }
   }
