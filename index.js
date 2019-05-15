@@ -7,8 +7,7 @@ function distanceFromHqInBlocks (distance) {
   }
 }
 
-function distanceFromHqInfeet (distance) {
-  if (distance > 42) {
-    return ((distance - 42) * 264)
+function distanceFromHqInfeet (beginning, destination) {
+  return ((beginning - destination) * 264)
   }
 }
