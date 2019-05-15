@@ -8,5 +8,5 @@ function distanceFromHqInBlocks (distance) {
 }
 
 function distanceFromHqInfeet (distance) {
-  return (distance)
+  return (distance - 42)
   }
