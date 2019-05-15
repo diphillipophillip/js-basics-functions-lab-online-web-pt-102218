@@ -27,5 +27,7 @@ function distanceFromHqInFeet (distance) {
     const distance = distanceTravelledInFeet(starting, ending);
     if (distance <= 400) {
     return 0 
+    } else if (distance >= 401 && distance <= 2000 ) {
+      return (distance * 2)
     }
   }
