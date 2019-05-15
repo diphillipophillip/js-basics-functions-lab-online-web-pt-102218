@@ -15,6 +15,6 @@ function distanceFromHqInFeet (distance) {
    }
   }
   
-  function distanceTravelledInFeet () {
+  function distanceTravelledInFeet (distance) {
     return (distance)
   }
