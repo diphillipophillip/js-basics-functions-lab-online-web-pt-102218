@@ -28,6 +28,6 @@ function distanceFromHqInFeet (distance) {
     if (distance <= 400) {
     return 0 
     } else if (distance >= 401 && distance <= 2000 ) {
-      return .02
+      return .02 * (distance - 400)
     }
   }
