@@ -25,6 +25,7 @@ function distanceFromHqInFeet (distance) {
   
   function calculatesFarePrice (start, destination) {
     const distance = distanceTravelledInFeet 
-    if (distance < 400) 
+    if (distance < 400) {
     return 0 
+    }
   }
