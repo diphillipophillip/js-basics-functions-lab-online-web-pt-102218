@@ -23,7 +23,7 @@ function distanceFromHqInFeet (distance) {
     }
   }
   
-  function calculatesFarePrice (start, destination) {
+  function calculatesFarePrice (starting, ending) {
     const distance = distanceTravelledInFeet(starting, ending);
     if (distance <= 400) {
     return 0 
