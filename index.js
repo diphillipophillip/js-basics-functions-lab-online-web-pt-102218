@@ -8,5 +8,6 @@ function distanceFromHqInBlocks (distance) {
 }
 
 function distanceFromHqInFeet (distance) {
+  if (distance > 42)
   return ((distance - 42) * 264)
   }
