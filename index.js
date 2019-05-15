@@ -19,6 +19,6 @@ function distanceFromHqInFeet (distance) {
     if (starting > ending) {
       return ((starting - ending) * 264)
     } else {
-      return ((starting + ending) * 264)
+      return ((ending - starting) * 264)
     }
   }
