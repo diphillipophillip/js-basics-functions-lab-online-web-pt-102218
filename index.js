@@ -7,7 +7,7 @@ function distanceFromHqInBlocks (distance) {
   }
 }
 
-function distanceFromHqInfeet (beginning, destination) {
+function distanceFromHqInfeet (destination) {
   return destination
   }
 }
